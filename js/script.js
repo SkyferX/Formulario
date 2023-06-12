@@ -147,8 +147,8 @@ function validar_numero() {
 function validar_url() {
     var url = document.getElementById("url").value;
     var div = document.getElementById("err_url");
-    var httpsPrefix = "https://www.";
-    var httpPrefix = "http://www.";
+    var httpsPrefix = "https://";
+    var httpPrefix = "http://";
     if (url == "") {
         div.innerText = "";
         return true;
