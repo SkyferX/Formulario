@@ -95,7 +95,7 @@ function validar_direccion() {
         div.className = "text-danger";
         return false;
     } else {
-        if (direccion.length > 50) {
+        if (direccion.length > 80) {
             div.innerText = "Haz superado el maximo de caracteres";
             div.className = "text-danger";
             return false
